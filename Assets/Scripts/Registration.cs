@@ -32,7 +32,7 @@ public class Registration : MonoBehaviour
         }
         else
         {
-            string responseText = www.downloadHandler.text;
+            string responseText = "done";
             resultText.text = responseText;
 
             UnityEngine.SceneManagement.SceneManager.LoadScene(0);

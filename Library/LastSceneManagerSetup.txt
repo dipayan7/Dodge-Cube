@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/regeistermenu.unity
+- path: Assets/Scenes/Loginmenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

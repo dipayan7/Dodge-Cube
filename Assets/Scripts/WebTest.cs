@@ -7,10 +7,14 @@ public class WebTest : MonoBehaviour
     // Start is called before the first frame update
     IEnumerator Start()
     {
-        WWW request = new WWW("https://localhost/sqlconnect/webtest.php");
+        WWW request = new WWW("http://localhost/sqlconnect/webtest.php");
         yield return request;
 
-        Debug.Log(request.text);
+        string[] webResults = request.text.Split('\t');
+        Debug.Log(webResults[0]);
+       int webNumber = int.Parse(webResults[1]);
+        webNumber *= 2;
+        Debug.Log(webNumber);
             
     }
 
