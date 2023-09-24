@@ -360,8 +360,8 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: a97a74418154bf144bee79951ee79fc2, type: 3}
-    m_FontSize: 50
-    m_FontStyle: 0
+    m_FontSize: 25
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 50
@@ -371,7 +371,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dipayan Dasgupta
+  m_Text: "Dipayan Dasgupta,\n Purvil Patel,\n Rajdeep Patel"
 --- !u!222 &501850381
 CanvasRenderer:
   m_ObjectHideFlags: 0

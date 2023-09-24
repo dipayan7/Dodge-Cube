@@ -450,7 +450,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter text...
+  m_Text: Enter username
 --- !u!222 &239439683
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -530,7 +530,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter text...
+  m_Text: Minimum 8 characters
 --- !u!222 &465816518
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -657,6 +657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameField: {fileID: 2121971572}
   passwordField: {fileID: 2019764844}
+  resultText: {fileID: 0}
   submitButton: {fileID: 1583540340}
 --- !u!1 &882524665
 GameObject:
