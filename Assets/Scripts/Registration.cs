@@ -32,10 +32,10 @@ public class Registration : MonoBehaviour
         }
         else
         {
-            string responseText = "done";
-            resultText.text = responseText;
+            //string responseText = "done";
+            //resultText.text = responseText;
 
-            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(3);
         }
 
     }

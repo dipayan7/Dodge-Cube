@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 137275486}
   - component: {fileID: 137275489}
   - component: {fileID: 137275488}
-  - component: {fileID: 137275490}
   m_Layer: 5
   m_Name: Welcome
   m_TagString: Untagged
@@ -205,18 +204,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 137275485}
   m_CullTransparentMesh: 1
---- !u!114 &137275490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137275485}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d50d986b93b3c2c40a4183fff3a7c6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &207221293
 GameObject:
   m_ObjectHideFlags: 0
@@ -609,9 +596,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 137275490}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: StartGame
+      - m_Target: {fileID: 598448178}
+        m_TargetAssemblyTypeName: Userselector, Assembly-CSharp
+        m_MethodName: GoTopPlay
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

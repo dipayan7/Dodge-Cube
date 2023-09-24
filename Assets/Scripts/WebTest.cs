@@ -12,7 +12,7 @@ public class WebTest : MonoBehaviour
 
         string[] webResults = request.text.Split('\t');
         Debug.Log(webResults[0]);
-       int webNumber = int.Parse(webResults[1]);
+        int webNumber = int.Parse(webResults[1]);
         webNumber *= 2;
         Debug.Log(webNumber);
             

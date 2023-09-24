@@ -16,6 +16,7 @@ public class Login : MonoBehaviour
     public void CallLogin()
     {
         StartCoroutine(LoginPlayer());
+
     }
 
     IEnumerator LoginPlayer()
@@ -29,7 +30,7 @@ public class Login : MonoBehaviour
 
         if (www.result == UnityWebRequest.Result.Success)
         {
-            string responseText = www.downloadHandler.text; // Use the actual server response text
+            string responseText = "Done"; // Use the actual server response text
 
             if (responseText.StartsWith("0"))
             {
@@ -57,7 +58,7 @@ public class Login : MonoBehaviour
             {
                 if (resultText != null)
                 {
-                    resultText.text = "Login Failed: " + responseText;
+                   resultText.text = "Login Failed: " + responseText;
                 }
                 else
                 {
@@ -81,5 +82,6 @@ public class Login : MonoBehaviour
     public void VerifyInputs()
     {
         submitButton.interactable = (nameField.text.Length >= 8 && passwordField.text.Length >= 8);
+
     }
 }
